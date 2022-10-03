@@ -5,6 +5,7 @@
     <classes>
       <class name="com.CodingTest.MovieInformationTest">
         <methods>
+          <include name="CloseTheBrowser"/>
           <include name="setUp"/>
           <include name="ReleaseDate"/>
         </methods>

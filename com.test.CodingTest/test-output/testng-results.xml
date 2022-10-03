@@ -2,31 +2,31 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-03T07:32:02 IST" name="Default suite" finished-at="2022-10-03T07:33:14 IST" duration-ms="71572">
+  <suite started-at="2022-10-03T21:00:19 IST" name="Default suite" finished-at="2022-10-03T21:01:00 IST" duration-ms="40409">
     <groups>
     </groups>
-    <test started-at="2022-10-03T07:32:02 IST" name="Default test" finished-at="2022-10-03T07:33:14 IST" duration-ms="71572">
+    <test started-at="2022-10-03T21:00:19 IST" name="Default test" finished-at="2022-10-03T21:01:00 IST" duration-ms="40409">
       <class name="com.CodingTest.MovieInformationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.CodingTest.MovieInformationTest@21e360a]" started-at="2022-10-03T07:32:02 IST" name="setUp" finished-at="2022-10-03T07:32:26 IST" duration-ms="23761" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.CodingTest.MovieInformationTest@58d75e99]" started-at="2022-10-03T21:00:20 IST" name="setUp" finished-at="2022-10-03T21:00:32 IST" duration-ms="12712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="CountryName()[pri:0, instance:com.CodingTest.MovieInformationTest@21e360a]" started-at="2022-10-03T07:32:26 IST" name="CountryName" finished-at="2022-10-03T07:32:59 IST" duration-ms="32830" status="PASS">
+        <test-method signature="CountryName()[pri:0, instance:com.CodingTest.MovieInformationTest@58d75e99]" started-at="2022-10-03T21:00:32 IST" name="CountryName" finished-at="2022-10-03T21:00:48 IST" duration-ms="15341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CountryName -->
-        <test-method signature="ReleaseDate()[pri:0, instance:com.CodingTest.MovieInformationTest@21e360a]" started-at="2022-10-03T07:32:59 IST" name="ReleaseDate" finished-at="2022-10-03T07:33:14 IST" duration-ms="14850" status="FAIL">
+        <test-method signature="ReleaseDate()[pri:0, instance:com.CodingTest.MovieInformationTest@58d75e99]" started-at="2022-10-03T21:00:48 IST" name="ReleaseDate" finished-at="2022-10-03T21:00:58 IST" duration-ms="10755" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Release Date are not matching expected [December 17, 2021 (United States)] but found [[[RemoteWebDriver: chrome on WINDOWS (cbbb2101ac317a6ed8d5ad634b4a58c3bb21c9aa)] -> xpath: //div[@class="plainlist" and contains(.,'1')]]]]]>
+              <![CDATA[Release Date are not matching expected [December 17, 2021 (United States)] but found [[[RemoteWebDriver: chrome on WINDOWS (f04f3b5eed4082ae29d3c89e889225f248a74d4f)] -> xpath: //div[@class="plainlist" and contains(.,'1')]]]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Release Date are not matching expected [December 17, 2021 (United States)] but found [[[RemoteWebDriver: chrome on WINDOWS (cbbb2101ac317a6ed8d5ad634b4a58c3bb21c9aa)] -> xpath: //div[@class="plainlist" and contains(.,'1')]]]
+              <![CDATA[java.lang.AssertionError: Release Date are not matching expected [December 17, 2021 (United States)] but found [[[RemoteWebDriver: chrome on WINDOWS (f04f3b5eed4082ae29d3c89e889225f248a74d4f)] -> xpath: //div[@class="plainlist" and contains(.,'1')]]]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
-at com.CodingTest.MovieInformationTest.ReleaseDate(MovieInformationTest.java:97)
+at com.CodingTest.MovieInformationTest.ReleaseDate(MovieInformationTest.java:96)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -61,6 +61,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReleaseDate -->
+        <test-method is-config="true" signature="CloseTheBrowser()[pri:0, instance:com.CodingTest.MovieInformationTest@58d75e99]" started-at="2022-10-03T21:00:58 IST" name="CloseTheBrowser" finished-at="2022-10-03T21:01:00 IST" duration-ms="1475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseTheBrowser -->
       </class> <!-- com.CodingTest.MovieInformationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
