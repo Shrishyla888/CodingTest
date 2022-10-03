@@ -51,10 +51,9 @@ Let's say we want to automate Imdb website test.
 
 3.Create the test class which class the methods of Imdb and wikipedia pages
 
-```
-@Test(testName = "Google search test", description = "Test description")
-public class GoogleSearchTest extends BaseTest {
+4. Create two methoods for country name and release date validation
 
+```
 @Test
 	public void CountryName() throws InterruptedException {
 
