@@ -53,6 +53,8 @@ Let's say we want to automate Imdb website test.
 
 4. Create two methoods for country name and release date validation
 
+5. and run the main test class "com.test.CodingTest/src/test/java/com/CodingTest/MovieInformationTest.java"
+
 ```
 @Test
 	public void CountryName() throws InterruptedException {
